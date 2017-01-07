@@ -1,0 +1,20 @@
+﻿Build started 1/6/2017 3:05:14 PM.
+     1>Project "C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\FinalProject\FinalProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D GLUT_BUILDING_LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ObjLoader.cpp main.cpp
+         main.cpp
+         ObjLoader.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\FinalProject.exe" /INCREMENTAL /NOLOGO opengl32.lib glut32.lib glu32.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\FinalProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\FinalProject.lib" /MACHINE:X86 Debug\main.obj
+         Debug\ObjLoader.obj
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\SOIL.pdb'; linking object as if no debug info
+         FinalProject.vcxproj -> C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\Debug\FinalProject.exe
+     1>Done Building Project "C:\Users\votha\Desktop\Thanh_Vo_finalproject\FinalProject\FinalProject\FinalProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.34
